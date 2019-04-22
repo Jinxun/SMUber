@@ -1,0 +1,6 @@
+module Pods_SMUBer {
+  umbrella header "Pods-SMUBer-umbrella.h"
+
+  export *
+  module * { export * }
+}

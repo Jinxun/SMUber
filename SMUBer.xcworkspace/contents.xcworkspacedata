@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../gpx/arrive.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:bus_station.png">
+   </FileRef>
+   <FileRef
+      location = "group:SMUBer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/../bus_icons.png">
+   </FileRef>
+</Workspace>

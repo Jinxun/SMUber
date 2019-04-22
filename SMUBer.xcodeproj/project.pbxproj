@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		748D5672144E2DE338A324C1 /* libPods-SMUBer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D56B0893ABF02B838B18976 /* libPods-SMUBer.a */; };
+		95233CB322516261009C156E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 95233CB222516261009C156E /* Podfile */; };
+		954C26E12262905900E56B5A /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C26E02262905900E56B5A /* ErrorViewController.swift */; };
+		954C26E32262A2D600E56B5A /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C26E22262A2D600E56B5A /* LogoutViewController.swift */; };
+		95510E752253C4D500EE6549 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95510E702253C4D500EE6549 /* LoginViewController.swift */; };
+		95510E762253C4D500EE6549 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95510E712253C4D500EE6549 /* SignupViewController.swift */; };
+		95510E772253C4D500EE6549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95510E722253C4D500EE6549 /* AppDelegate.swift */; };
+		95510E782253C4D500EE6549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95510E742253C4D500EE6549 /* ViewController.swift */; };
+		95510E822253C84C00EE6549 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95510E802253C84C00EE6549 /* SWRevealViewController.m */; };
+		95510E872253EDAD00EE6549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95510E852253EDAD00EE6549 /* Main.storyboard */; };
+		95E209AB225803F600BEBAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E209AA225803F600BEBAD8 /* Assets.xcassets */; };
+		95E209AD22585DE000BEBAD8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E209AC22585DE000BEBAD8 /* SearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D56B0893ABF02B838B18976 /* libPods-SMUBer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMUBer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7361C85BA97CE377AA0FF1 /* Pods-SMUBer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMUBer.release.xcconfig"; path = "Target Support Files/Pods-SMUBer/Pods-SMUBer.release.xcconfig"; sourceTree = "<group>"; };
+		95233C9D22516173009C156E /* SMUBer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMUBer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95233CB222516261009C156E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954C26E02262905900E56B5A /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		954C26E22262A2D600E56B5A /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		95510E702253C4D500EE6549 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = SMUBer/LoginViewController.swift; sourceTree = "<group>"; };
+		95510E712253C4D500EE6549 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = SMUBer/SignupViewController.swift; sourceTree = "<group>"; };
+		95510E722253C4D500EE6549 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SMUBer/AppDelegate.swift; sourceTree = "<group>"; };
+		95510E732253C4D500EE6549 /* SMUBer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SMUBer-Bridging-Header.h"; path = "SMUBer/SMUBer-Bridging-Header.h"; sourceTree = "<group>"; };
+		95510E742253C4D500EE6549 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SMUBer/ViewController.swift; sourceTree = "<group>"; };
+		95510E802253C84C00EE6549 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SMUBer/swviewcontroller/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		95510E812253C84C00EE6549 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SMUBer/swviewcontroller/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		95510E862253EDAD00EE6549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SMUBer/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E209AA225803F600BEBAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SMUBer/Assets.xcassets; sourceTree = "<group>"; };
+		95E209AC22585DE000BEBAD8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BE8FB13F8896EE579A46FCFD /* Pods-SMUBer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMUBer.debug.xcconfig"; path = "Target Support Files/Pods-SMUBer/Pods-SMUBer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95233C9A22516173009C156E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748D5672144E2DE338A324C1 /* libPods-SMUBer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95233C9422516173009C156E = {
+			isa = PBXGroup;
+			children = (
+				95E209AA225803F600BEBAD8 /* Assets.xcassets */,
+				95510E7F2253C81E00EE6549 /* SWViewController */,
+				95510E722253C4D500EE6549 /* AppDelegate.swift */,
+				95510E702253C4D500EE6549 /* LoginViewController.swift */,
+				95510E712253C4D500EE6549 /* SignupViewController.swift */,
+				95510E852253EDAD00EE6549 /* Main.storyboard */,
+				954C26E22262A2D600E56B5A /* LogoutViewController.swift */,
+				954C26E02262905900E56B5A /* ErrorViewController.swift */,
+				95E209AC22585DE000BEBAD8 /* SearchViewController.swift */,
+				95510E732253C4D500EE6549 /* SMUBer-Bridging-Header.h */,
+				95510E742253C4D500EE6549 /* ViewController.swift */,
+				95233CB222516261009C156E /* Podfile */,
+				95233C9E22516173009C156E /* Products */,
+				E8E387E237FE30D644FE7399 /* Pods */,
+				A897BD061ADC8860392F2B64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95233C9E22516173009C156E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95233C9D22516173009C156E /* SMUBer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95510E7F2253C81E00EE6549 /* SWViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95510E812253C84C00EE6549 /* SWRevealViewController.h */,
+				95510E802253C84C00EE6549 /* SWRevealViewController.m */,
+			);
+			path = SWViewController;
+			sourceTree = "<group>";
+		};
+		A897BD061ADC8860392F2B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D56B0893ABF02B838B18976 /* libPods-SMUBer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8E387E237FE30D644FE7399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE8FB13F8896EE579A46FCFD /* Pods-SMUBer.debug.xcconfig */,
+				6C7361C85BA97CE377AA0FF1 /* Pods-SMUBer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95233C9C22516173009C156E /* SMUBer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95233CAF22516174009C156E /* Build configuration list for PBXNativeTarget "SMUBer" */;
+			buildPhases = (
+				C4A64825C85B6C6DE4333D28 /* [CP] Check Pods Manifest.lock */,
+				95233C9922516173009C156E /* Sources */,
+				95233C9A22516173009C156E /* Frameworks */,
+				95233C9B22516173009C156E /* Resources */,
+				1241C65AAE975E809E28A2D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMUBer;
+			productName = SMUBer;
+			productReference = 95233C9D22516173009C156E /* SMUBer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95233C9522516173009C156E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = smuber;
+				TargetAttributes = {
+					95233C9C22516173009C156E = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 95233C9822516173009C156E /* Build configuration list for PBXProject "SMUBer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95233C9422516173009C156E;
+			productRefGroup = 95233C9E22516173009C156E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95233C9C22516173009C156E /* SMUBer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95233C9B22516173009C156E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95510E872253EDAD00EE6549 /* Main.storyboard in Resources */,
+				95E209AB225803F600BEBAD8 /* Assets.xcassets in Resources */,
+				95233CB322516261009C156E /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1241C65AAE975E809E28A2D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SMUBer/Pods-SMUBer-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SMUBer/Pods-SMUBer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A64825C85B6C6DE4333D28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SMUBer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95233C9922516173009C156E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C26E12262905900E56B5A /* ErrorViewController.swift in Sources */,
+				95E209AD22585DE000BEBAD8 /* SearchViewController.swift in Sources */,
+				95510E772253C4D500EE6549 /* AppDelegate.swift in Sources */,
+				95510E762253C4D500EE6549 /* SignupViewController.swift in Sources */,
+				95510E822253C84C00EE6549 /* SWRevealViewController.m in Sources */,
+				95510E782253C4D500EE6549 /* ViewController.swift in Sources */,
+				954C26E32262A2D600E56B5A /* LogoutViewController.swift in Sources */,
+				95510E752253C4D500EE6549 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95510E852253EDAD00EE6549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95510E862253EDAD00EE6549 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95233CAD22516174009C156E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95233CAE22516174009C156E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95233CB022516174009C156E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8FB13F8896EE579A46FCFD /* Pods-SMUBer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33ZWVPB2C3;
+				INFOPLIST_FILE = SMUBer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smugugugu.SUMBer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SMUBer/SMUBer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95233CB122516174009C156E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7361C85BA97CE377AA0FF1 /* Pods-SMUBer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33ZWVPB2C3;
+				INFOPLIST_FILE = SMUBer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smugugugu.SUMBer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SMUBer/SMUBer-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95233C9822516173009C156E /* Build configuration list for PBXProject "SMUBer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95233CAD22516174009C156E /* Debug */,
+				95233CAE22516174009C156E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95233CAF22516174009C156E /* Build configuration list for PBXNativeTarget "SMUBer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95233CB022516174009C156E /* Debug */,
+				95233CB122516174009C156E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95233C9522516173009C156E /* Project object */;
+}
